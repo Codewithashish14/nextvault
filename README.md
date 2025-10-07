@@ -34,3 +34,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+```
+# NexusVault - Secure Password Manager 🔒
+
+A privacy-first password manager built with Next.js featuring client-side encryption. Your data is encrypted before it leaves your device, ensuring maximum security and privacy.
+
+## Features ✨
+
+- 🔒 **Client-Side Encryption** - Your data is encrypted locally before storage
+- 🛡️ **Secure Password Storage** - Military-grade AES-256-GCM encryption
+- 🔑 **Master Password Protection** - Single master password to access all your data
+- 🎯 **Strong Password Generator** - Create secure, customizable passwords
+- 🔍 **Search Functionality** - Quickly find your stored credentials
+- 📱 **Responsive Design** - Works perfectly on desktop and mobile
+- ⚡ **Fast & Lightweight** - Built with Next.js 15 for optimal performance
+- 🔄 **Real-time Updates** - Instant sync across your vault
+
+## Tech Stack 🛠️
+
+- **Frontend**: Next.js 15, React 18, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes, Node.js
+- **Database**: MongoDB with Mongoose
+- **Authentication**: NextAuth.js
+- **Encryption**: AES-256-GCM with bcryptjs
+- **Deployment**: Vercel
+
+## Getting Started 🚀
+
+### Prerequisites
+
+- Node.js 18.0 or higher
+- MongoDB Atlas account or local MongoDB instance
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Codewithashish14/nextvault.git
+   cd nextvault
+   ```
