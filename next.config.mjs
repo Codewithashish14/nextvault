@@ -6,9 +6,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  experimental: {
-    serverComponentsExternalPackages: ['bcryptjs', 'mongodb'],
-  },
+  // FIX: Use the new property name
+  serverExternalPackages: ['bcryptjs', 'mongodb'],
 }
 
-module.exports = nextConfig
+export default nextConfig
